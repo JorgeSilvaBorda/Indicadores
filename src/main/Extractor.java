@@ -104,7 +104,6 @@ public class Extractor {
      */
     public JSONArray traerIndicadorTipo(String tipo) {
         String ruta = RUTA + tipo;
-        JSONArray arr = new JSONArray();
         try {
             BufferedReader br = getDatos(ruta);
             String line;
